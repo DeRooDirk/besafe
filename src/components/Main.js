@@ -4,7 +4,7 @@ const Main = ({title}) => {
         fontSize: "5.25rem",
         letterSpacing:" 2px",
         fontWeight:"400",
-       // textDecoration:"underline",
+        textDecoration:"underline",
         margin:'2rem'
        
     }
