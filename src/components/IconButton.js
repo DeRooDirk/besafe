@@ -12,8 +12,8 @@ import {
   } from "react-router-dom";
  
 const iconComponents = {
-    facebook: [faFacebookSquare, "6x", "../pages/settings"],
-    twitter: [faTwitterSquare, "6x", "#"],
+    facebook: [faFacebookSquare, "2x", "../pages/settings"],
+    twitter: [faTwitterSquare, "2x", "#"],
     home: [faHome, "4x", "#"],
     phone: [faPhoneSquareAlt, "4x", "#"],
     chat: [faComments, "4x", "#"],
