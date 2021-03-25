@@ -20,7 +20,7 @@
     background-size: contain;
     width: 40%;
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
     flex-direction: column;
     margin: 1rem;
     
@@ -28,9 +28,9 @@
 .Right{
     background-color:  rgb(255, 101, 132);
     width: 60%;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;*/
    
    
     padding:3rem;
