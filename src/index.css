@@ -52,5 +52,17 @@
     transform: translateY(4px);
   }
 
+  .rightHeader {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.iconButton {
+    margin: 1rem;
+    color:rgb(54, 62, 97);
+}
+
 
 
