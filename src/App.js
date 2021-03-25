@@ -6,24 +6,8 @@ import GetMoreInfoButton from './components/GetMoreInfoButton'
 import GetStartedButton from './components/GetStartedButton'
 import GetFeedButton from './components/GetFeedButton'
 import LogoutButton from './components/LogoutButton'
-import IconHeaderButton from './components/IconButton'
-
-const buttonNames= ['facebook', 'twitter'];
-const showIconButtons = () => {
-    return (
-        <div>
-            {
-                buttonNames.map((button) => {
-                    return (
-                        <IconHeaderButton                
-                            iconName={button}/>
-                    );
-                })
-            }
-
-        </div>
-    );
-};
+import RightHeader from './components/RightHeader'
+import FooterMenu from './components/FooterMenu'
 
 const App = ( ) =>{
     return(
@@ -33,9 +17,8 @@ const App = ( ) =>{
                 <Footer/>
             </div>
             <div className = 'Right'>
-                <header className = 'rightHeader'>
-                    {showIconButtons()}
-                </header>
+                <RightHeader/>
+                <FooterMenu/>
                 <Main/>
                 <MainMiddel/>  
                < GetMoreInfoButton/> 
