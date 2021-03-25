@@ -1,7 +1,7 @@
 const Header = ({title}) => {
     const HeaderStyle ={    
         color:"rgb(54, 62, 97)",
-        fontSize: "9.75rem",
+        fontSize: "3.75rem",
         letterSpacing:" 5px",
         fontWeight:"400"
     }

@@ -1,7 +1,7 @@
 const Footer = ({title}) => {
     const FooterStyle ={
         color:"rgb(54, 62, 97)",
-        fontSize: "1.75rem",
+        fontSize: "1rem",
         letterSpacing:" 1px",
     }
     return (

@@ -1,18 +1,12 @@
 import React from 'react';
+import {  Link } from 'react-router-dom';
 
-import Layout from './components/Layout';
-
-
-const Settings =({children}) =>{
-  return(
-      <>
-         <Layout>
-
-           <p>Hello Wolrd</p>
-           </Layout> 
-
-      </>
-  )
-}
+const Settings = ({ children }) => {
+  return (
+    <>
+      <Link to="/Feed">hellooooo</Link>
+    </>
+  );
+};
 
 export default Settings;
