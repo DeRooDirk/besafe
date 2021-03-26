@@ -1,7 +1,7 @@
 const Main = ({title}) => {
     const MainTitleStyle ={    
         color:"rgb(54, 62, 97)",
-        fontSize: "5.25rem",
+        fontSize: "2.25rem",
         letterSpacing:" 2px",
         fontWeight:"400",
         textDecoration:"underline",

@@ -1,13 +1,12 @@
 const MainMiddel = ({title}) => {
     const MainMiddelStyle ={    
         color:"rgb(54, 62, 97)",
-        fontSize: "1.55rem",
-        letterSpacing:" 2px",
+       // fontSize: "1rem",
+        letterSpacing:" 1px",
         fontWeight:"400",
         width:"60%",
-        margin:"2rem auto",
-        lineHeight:"2rem",
-        wordSpacing:'.2rem'        
+        margin:"2rem auto",        
+        wordSpacing:'.1rem'        
     }
     return (
         <main style={MainMiddelStyle}>

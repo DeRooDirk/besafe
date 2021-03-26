@@ -4,7 +4,7 @@ import {  Link } from 'react-router-dom';
 const Settings = ({ children }) => {
   return (
     <>
-      <Link to="/Feed">hellooooo</Link>
+      <Link to="/Feed">SETTINGS TO FEED</Link>
     </>
   );
 };

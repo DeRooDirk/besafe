@@ -1,6 +1,5 @@
 const GetMoreInfoButton = ({title}) => {
-    const  GetMoreInfoButtonStyle={
-            
+    const  GetMoreInfoButtonStyle={            
         color:"#363E61",
         fontSize: "1.75rem",
         letterSpacing:" 2px",
@@ -12,8 +11,7 @@ const GetMoreInfoButton = ({title}) => {
         outline:"none",
         display:"inline-block",
         width:"30%",
-        margin:" 0 auto",
-        
+        margin:" 0 auto",        
     }
     return (
         <button className='btn' style ={GetMoreInfoButtonStyle}>
