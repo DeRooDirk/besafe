@@ -101,7 +101,7 @@ p{
 .bigWrap{
   display:flex;
   flex-direction:column;
-  max-width:600px;
+  max-width:500px;
   background-color :whitesmoke;
   border-radius :15px;
   margin:0 auto;
@@ -133,9 +133,7 @@ p{
   padding:1rem;
      margin:0 auto;
   }
-  .buttonsSettinsWrap{
-     color :red;
-     width:70%;
-     
+  .buttonsSettinsWrap{    
+     width:70%;     
   }
 }
