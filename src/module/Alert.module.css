@@ -45,7 +45,7 @@ button{
   padding: 0.75rem 1.55rem;
   border-radius:10px;
   cursor:pointer;
- 
+  margin:1em;
 }
 
 .dirk{  
@@ -101,12 +101,13 @@ p{
 .bigWrap{
   display:flex;
   flex-direction:column;
-  max-width:500px;
+  max-width:600px;
   background-color :whitesmoke;
   border-radius :15px;
+  margin:0 auto;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 450px) {
  body {
    background-color: lightblue;
  }
@@ -115,6 +116,11 @@ p{
      flex-direction:column;
      justify-content:center;
   }
+  .dirks{
+    border:2px solid black; 
+    flex-direction:column;
+    justify-content:center;
+ }
   p{
      margin:1rem;
      text-align:center;

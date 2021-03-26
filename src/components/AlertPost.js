@@ -21,7 +21,7 @@ const AlertPost = () => {
                     <button>Safe </button>
                     <button>Alert </button>
                 </div>
-                <div class= 'dirk'>
+                <div className={style.dirk}>
                     <div className={style.left}>
                         <div className={style.circle}></div>
                     </div>
@@ -31,7 +31,7 @@ const AlertPost = () => {
                         <p> Dirk </p>
                     </div>            
                 </div>
-                <div class= 'dirk'>
+                <div className={style.dirk}>
                     <div className={style.left}>
                         <div className={style.circle}></div>
                     </div>
@@ -41,17 +41,30 @@ const AlertPost = () => {
                         <p> Dirk </p>
                     </div>            
                 </div>
-                <div class= 'dirks'>
-                <div className={style.left}>
-                    <div className={style.circle}>           
+                <div className={style.dirks}>
+                    <div className={style.left}>
+                        <div className={style.circle}>           
+                        </div>
                     </div>
+                    <div className={style.right}>
+                        <p>  Dirk ergego ejgoîejugoIEGO  Dirk ergego ejgoîejugoIEGO  Dirk ergego  ejgoîejugoIEGO  Dirk ergego ejgoîejugoIEGO  </p>
+                        <p> Dirk </p>
+                        <p> Dirk </p>
+                    </div>            
                 </div>
-                <div className={style.right}>
-                    <p>  Dirk ergego ejgoîejugoIEGO  Dirk ergego ejgoîejugoIEGO  Dirk ergego  ejgoîejugoIEGO  Dirk ergego ejgoîejugoIEGO  </p>
-                    <p> Dirk </p>
-                    <p> Dirk </p>
-                </div>            
-            </div>
+                <div className={style.dirks}>
+                    <div className={style.left}>
+                        <div className={style.circle}>           
+                        </div>
+                    </div>
+                    <div className={style.right}>
+                        <p>  Dirk ergego ejgoîejugoIEGO  Dirk ergego ejgoîejugoIEGO  Dirk ergego  ejgoîejugoIEGO  Dirk ergego ejgoîejugoIEGO  </p>
+                        <p> Dirk </p>
+                        <p> Dirk </p>
+                    </div>            
+                </div>
+                
+            
             </div>
             <div className={style.buttonsSettinsWrap}>
                 <span>  eIcon</span>
