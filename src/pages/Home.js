@@ -10,7 +10,7 @@ const Home = ({ children }) => {
     <Main></Main>
     <MainMiddel></MainMiddel>
     <GetMoreInfoButton></GetMoreInfoButton>
-    <Link to="/Info">HOME PAGE TO INFO PAGE</Link>
+    <Link to="/Info"> INFO PAGE</Link>
     </>
   );
 };
