@@ -1,8 +1,8 @@
 import React from 'react';
 import {  Link } from 'react-router-dom';
-import Alert from '../components/AlertPost';
+import Alert from './AlertPost';
 
-const Feed =({children}) =>{
+const Post =({children}) =>{
   return(
       <>
        <Link to="/Home">Flipperkast Flipperkast Flipperkast TO HOME PAGE </Link> 
@@ -12,4 +12,4 @@ const Feed =({children}) =>{
   )
 }
 
-export default Feed;
+export default Post;

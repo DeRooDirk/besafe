@@ -1,18 +1,68 @@
 .wrap{
-  margin:10px;
-  background-color:orange;
-  width:500px;
-  min-height:900px;
+  margin:10px;   
   display:flex;
   flex-direction:column;
-  border:2px solid green;
+  
+}
+.buttonWrap{      
+  margin:1em auto;
+}
+.buttonsSettinsWrap{
+  background-color :lightgray;
+  text-align:center;
+  display :flex;
+  justify-content: center;
+     margin: 1em auto;
+   border-radius:25px;
+  flex-wrap:wrap;
+  min-width:90%;
+}
+span{
+  margin:0.1em;
+  border: 1px solid black;
+  border-radius:50%;
+  padding:.51rem;
+  margin:1rem;
+ 
+}
+.inputWrap{
+  
+  margin:1em auto;
+}
+input[type=text]{
+  border-radius:15px;
+  padding:1em;
+  outline:none;
+  word-wrap:wrap;
+  background-color:lightgrey;
+  width:70px;
+  text-align:center;
+}
+input[type=text]:focus {
+ width: 100%;
+}
+button{
+  padding: 0.75rem 1.55rem;
+  border-radius:10px;
+  cursor:pointer;
+ 
 }
 
-.dirk{   
+.dirk{  
   
-  margin:1rem;
-  background-color :pink;  
+  margin:1em;
+  background-color:#EE8197; 
   display:flex;
+  outline:none;
+  border : 1px solid black;
+  border-radius:5px;
+}
+.dirks{  
+  
+  margin:1em;
+  background-color:lightblue; 
+  display:flex;
+  outline:none;
 }
 .left{
   
@@ -20,8 +70,8 @@
   display:flex;
   justify-content:center;
   align-items:center;
-  background-color :yellow;
-  padding:1rem;
+ 
+  padding:1em;
 }
 .right{   
   flex-direction:column;
@@ -29,22 +79,34 @@
   
 }
 .circle{
-  width:150px;
-  height:150px;
+
   border:5px solid black;
      border-radius:50%;
+  padding:2rem
+
 }
 p{  
-  padding:1rem;
-  background-color :red;
+  padding:1em;
+ 
   border:2px solid green;
     word-wrap:break word;
   
-  margin:1rem;
+  margin:1em;
      overflow :auto;
 }
+.btn{   
+  text-align:center;
+  margin:1em
+}
+.bigWrap{
+  display:flex;
+  flex-direction:column;
+  max-width:500px;
+  background-color :whitesmoke;
+  border-radius :15px;
+}
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
  body {
    background-color: lightblue;
  }
@@ -65,7 +127,9 @@ p{
   padding:1rem;
      margin:0 auto;
   }
-  .right{
-
+  .buttonsSettinsWrap{
+     color :red;
+     width:70%;
+     
   }
 }

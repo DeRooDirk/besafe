@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
-import IconHeaderButton from '../components/IconButton';
+import IconHeaderButton from './IconButton';
 import style from '../module/Alert.module.css';
 import {
     BrowserRouter as Router,
