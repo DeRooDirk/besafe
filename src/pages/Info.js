@@ -1,7 +1,7 @@
 import React from 'react';
 import {  Link } from 'react-router-dom';
 import Main from '../components/Main';
-import GetFeedButton from '../components/GetFeedButton';
+import GetStartedButton from '../components/GoToSettingsButton';
 import InfoMiddel from '../components/InfoMiddel';
 
 const Info = ({ children }) => {
@@ -9,7 +9,7 @@ const Info = ({ children }) => {
     <>
      <Main></Main>
      <InfoMiddel></InfoMiddel>
-     <GetFeedButton></GetFeedButton>
+     <GetStartedButton></GetStartedButton>
       <Link to="/Settings">INFO PÄGE TO SETTINGS</Link>
     </>
   );

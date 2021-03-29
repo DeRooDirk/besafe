@@ -1,11 +1,12 @@
 import React from 'react';
-import AlertPost from '../components/AlertPost';
 import {  Link } from 'react-router-dom';
+import SettingsRight from '../components/SettingsRight';
+
 
 const Settings = ({ children }) => {
   return (
     <>
-    <AlertPost></AlertPost>
+    <SettingsRight></SettingsRight>
       <Link to="/Feed">SETTINGS TO FEED</Link>
     </>
   );

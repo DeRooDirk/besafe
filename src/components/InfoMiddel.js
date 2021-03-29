@@ -5,7 +5,7 @@ const InfoMiddel = () => {
         fontSize: "1.1rem",        
         fontWeight:"400",
         display:"flex",
-       justifyContent:'center',
+        justifyContent:'center',
         margin:"2.75rem auto",        
         wordSpacing:'.1rem' ,
                

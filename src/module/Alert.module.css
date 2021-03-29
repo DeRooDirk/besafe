@@ -1,11 +1,11 @@
 .bigWrap{
   display:flex;
   flex-direction:column;
-  max-width:50%;
+  max-width:40%;
   background-color :whitesmoke;
   border-radius :15px;
   margin:0 auto;
-  max-height: 90vh;
+  
   
 }
 .wrap{
@@ -13,6 +13,9 @@
   display:flex;
   flex-direction:column;
   padding:1rem;
+  overflow: scroll;
+  max-height: 420px;
+ 
   
 }
 .buttonWrap{      
@@ -20,7 +23,8 @@
   
 }
 .inputWrap{  
-  margin:0 auto;
+  margin: 10px auto;
+
 }
 input[type=text]{
   border-radius:15px;
@@ -40,9 +44,9 @@ input[type=text]:focus {
   display :flex;
   justify-content: center;
      margin: 1em auto;
-   border-radius:25px;
+   border-radius:15px;
   flex-wrap:wrap;
-  min-width:90%;
+  min-width:80%;
 }
 span{
   margin:0.1em;
@@ -54,36 +58,56 @@ span{
 }
 
 
-button{
-  padding: 0.5rem 1.15rem;
-  border-radius:10px;
-  cursor:pointer;
-  margin:5px;
-  font-size: 0.5rem;
+.feedbtnS {
+        background-color:#6e7ec7;
+        font-size :1.75rem;
+        letter-spacing: 2px;
+        font-weight:400;       
+        padding:.7rem 1.5rem;
+        border-radius:10px;
+        border:3px solid #293a86 ;
+        outline:none;
+        margin: .5rem;
+}
+.feedbtnA {
+  background-color:#ff3216;
+  font-size :1.75rem;
+  letter-spacing: 2px;
+  font-weight:400;       
+  padding:.7rem 1.5rem;
+  border-radius:5px;
+  border:3px solid #363E61 ;
+  outline:none;
+  margin: .5rem;
 }
 
 .dirk{   
   background-color:#EE8197; 
   display:flex; 
-  border : 1px solid black;
+  border : 2px solid black;
   border-radius:5px;
-  margin:0.1em;
+  margin:0.1em;  
+  min-width:80%;
+  margin: 0.1rem auto;
 }
 .dirks{  
-  border : 1px solid black;
+  border : 2px solid rgb(201, 33, 33);
   border-radius:5px;
   margin:0.1em;  
   background-color:lightblue; 
   display:flex;
+  width: 80%;
+  margin: 0.1rem auto;
+  
  
 }
 .left{  
-  max-width:30%;
+  width:30%;
   display:flex;
   justify-content:center;
   align-items:center;
  background-color: yellow;
-  padding:1em;
+  padding:.5em;
 }
 .right{   
   flex-direction:column;
@@ -92,18 +116,19 @@ button{
   
 }
 .circle{
-
-  border:5px solid black;
+  border:5px solid rgb(201, 198, 198);
   border-radius:50%;
-  padding:2rem
+  padding:1.5rem;
+  margin: 1rem;
 
 }
 p{  
-  padding:0.5rem; 
-  border:2px solid green; 
-  margin:0.5rem;
+  padding:0.1rem; 
+  border:1px solid rgb(0, 0, 0); 
+  margin:0.1rem;
+  border-radius: 1px;
   text-align: left;
-  
+  max-width: 350px;  
 }
 .btn{   
   text-align:center;
