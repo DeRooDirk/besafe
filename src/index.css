@@ -1,14 +1,21 @@
+/* --- import of fonts --- */
+
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+/* Vars -- */
+
+
+/* -- Small Reset -- */
 *{    
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif; 
-    /*list-style: none;   */
+    font-family: 'Lato', sans-serif;     
 }
 li{
     margin: 0.5em;
 }
+/* -- Main layout for landingscreen -- */
 .App{
     min-height: 100vh;
     min-width: 100%;    
@@ -17,23 +24,70 @@ li{
 }
 .Left{
     background-image: url(./bg.png);
-    background-position: 0px 60%;
+    background-position: 50% 60%;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 80%;
     width: 40%;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
-    margin: 1rem;    
+    flex-direction: column;      
+    padding:3rem;  
+}
+/* -- Right Titel -- */
+    h2{
+        margin-top: 7rem;        
+    }
+    h4{        
+        margin: 5rem;
+    }
+
+
+
+/* -- Left Footer -- */
+footer{
+color:rgb(54, 62, 97);
+font-size: 1.25rem;
+letter-spacing: 1px;
 }
 .Right{
     background-color:  rgb(255, 101, 132);
     width: 60%;
-    /*display: flex;
-    flex-direction: column;
-    justify-content: center;*/   
-     
+    padding :3rem;
+    display: flex;
+    flex-direction: column;   
+     justify-content: start;
 }
+/* Social icon wrapper -- */
+.rightHeader {
+    display: flex;
+    justify-content: flex-end;     
+    padding: 1rem;
+}
+.iconButton {
+    margin: 1rem;
+    color:rgb(54, 62, 97);
+    font-size: 2rem;
+}
+/* --  page Title -- */
+
+
+ /* ----  INFO PAGE LAY- OUT ---- */
+ /* -- Middel part lay-out -- */ 
+
+ ul{     
+     margin:2rem;
+ }
+ li{
+     
+     margin: 1.45rem;
+     font-weight: 400;
+     font-size: 2rem;
+     letter-spacing: 1px;
+ }
+
+
+
+/* -- page button (lay out for all buttons ) -- */
 .btn{
     background-color: rgb(57, 196, 229);
     box-shadow: 
@@ -49,15 +103,59 @@ li{
     box-shadow: 0 6px rgb(186, 210, 238);
     transform: translateY(4px);
   }
-  .rightHeader {
-    display: flex;
-    justify-content: flex-end;
-    margin: 1rem;
-    padding: 1rem;
-}
-.iconButton {
-    margin: 1rem;
-    color:rgb(54, 62, 97);
+ 
+
+@media only screen and (max-width: 650px) {
+    .App{
+       max-width: 640px;          
+        display: flex;        
+        flex-direction: column;     
+    }
+    .Left{         
+         width: 100%;
+         margin:0;
+         height: 35vh;
+         background-size: 35%;
+         background-position: 50% 80%; 
+         background-color: #F2F2F2;             
+               
+    }
+    .Right{         
+        background-color: #F2F2F2;
+        width: 100%;   
+        align-items: center;             
+    }
+    footer{
+        display:none;        
+    }
+    .rightHeader{
+        display:none;
+       margin:0;
+       padding:0;
+    }
+    h2{       
+       font-size: 3.25rem;
+        margin:0;
+        padding:0;
+        
+        
+        font-weight: 700;       
+    }
+    p{
+        color: red;
+        margin:0;
+        padding:0
+    }  
+    h4{
+        color: #000;
+        margin:0;
+        padding:0;
+
+    }
+    .btn{
+        background-color: coral;
+    }
+    
 }
 
 

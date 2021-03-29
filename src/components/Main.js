@@ -1,17 +1,19 @@
+
+
 const Main = ({title}) => {
     const MainTitleStyle ={    
         color:"rgb(54, 62, 97)",
-        fontSize: "2.25rem",
+        fontSize: "3.25rem",
         letterSpacing:" 2px",
         fontWeight:"400",
-        textDecoration:"underline",
-        margin:'2rem'
+        textDecoration:"underline",          
        
     }
     return (
-        <main style={MainTitleStyle}>
-           {title}            
-        </main>
+       
+          <h2 style={MainTitleStyle}>{title} </h2>            
+        
+        
     )
 }
 Main.defaultProps = {

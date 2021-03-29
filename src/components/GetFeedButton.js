@@ -1,12 +1,11 @@
 const GetFeedButton = ({title}) => {
-    const  GetFeedStyle={
-            
+    const  GetFeedStyle={            
         color:"#363E61",
         fontSize: "1.75rem",
         letterSpacing:" 2px",
         fontWeight:"400",
        // backgroundColor:"#39C4E5",
-        padding:".75rem 1.55rem",
+        padding:".6rem 1.1rem",
         borderRadius:"10px",
         border:"3px solid #363E61 ",
         outline:"none",

@@ -1,11 +1,8 @@
 const Footer = ({title}) => {
-    const FooterStyle ={
-        color:"rgb(54, 62, 97)",
-        fontSize: "1rem",
-        letterSpacing:" 1px",
+    const FooterStyle ={       
     }
     return (
-        <footer style ={FooterStyle}>{title}             
+        <footer className ='FooterRight' style ={FooterStyle}>{title}             
         </footer>
     )
 }
