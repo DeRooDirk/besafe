@@ -1,11 +1,11 @@
 .bigWrap{
   display:flex;
   flex-direction:column;
-  max-width:40%;
+  max-width:50%;
   background-color :whitesmoke;
   border-radius :15px;
   margin:0 auto;
-  
+  border: 5px solid rgb(71, 70, 70);
   
 }
 .wrap{
@@ -15,6 +15,10 @@
   padding:1rem;
   overflow: scroll;
   max-height: 420px;
+  border: 5px solid rgb(88, 85, 85);
+  border-radius :15px; 
+  width: 80%;
+  margin: 0 auto
  
   
 }
@@ -28,54 +32,47 @@
 }
 input[type=text]{
   border-radius:15px;
-  padding:1em;
+  padding:1rem;
   outline:none;
   word-wrap:wrap;
   background-color:lightgrey;
-  width:70px;
+  height: 3rem;
   text-align:center;
+  margin: 0 auto;
+  background-color: rgb(170, 192, 231);
+  font-size: 1.4rem;
 }
 input[type=text]:focus {
- width: 100%; 
+ 
+ margin: 0 auto; 
+ height: 3rem;
 }
 .buttonsSettinsWrap{
-  background-color :lightgray;
+  background-color :rgb(216, 205, 205);
   text-align:center;
   display :flex;
   justify-content: center;
-     margin: 1em auto;
-   border-radius:15px;
+  margin: .5em auto;
+  border-radius:15px;
   flex-wrap:wrap;
   min-width:80%;
+  border: 1px solid grey;
 }
 span{
   margin:0.1em;
   border: 1px solid black;
   border-radius:50%;
   padding:.51rem;
-  margin:1rem;
- 
+  margin:1rem; 
 }
 
-
-.feedbtnS {
-        background-color:#6e7ec7;
-        font-size :1.75rem;
-        letter-spacing: 2px;
-        font-weight:400;       
-        padding:.7rem 1.5rem;
-        border-radius:10px;
-        border:3px solid #293a86 ;
-        outline:none;
-        margin: .5rem;
-}
 .feedbtnA {
   background-color:#ff3216;
   font-size :1.75rem;
   letter-spacing: 2px;
   font-weight:400;       
   padding:.7rem 1.5rem;
-  border-radius:5px;
+  border-radius:10px;
   border:3px solid #363E61 ;
   outline:none;
   margin: .5rem;
@@ -85,8 +82,7 @@ span{
   background-color:#EE8197; 
   display:flex; 
   border : 2px solid black;
-  border-radius:5px;
-  margin:0.1em;  
+  border-radius:5px;    
   min-width:80%;
   margin: 0.1rem auto;
 }

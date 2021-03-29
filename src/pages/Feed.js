@@ -6,6 +6,7 @@ const Feed =({children}) =>{
   return(
       <>     
        <AlertPost></AlertPost>
+       
        <Link to="/Home">TO HOME PAGE </Link> 
       </> 
   )

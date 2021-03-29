@@ -9,9 +9,7 @@ const Layout = (props) => {
         <Header />
         <Footer />
       </div>
-      <div className="Right">
-          {props.children}
-        </div>
+      <div className="Right">{props.children}</div>
     </>
   );
 };

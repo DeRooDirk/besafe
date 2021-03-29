@@ -4,7 +4,7 @@
     min-width:40%;
     background-color :whitesmoke;
     border-radius :15px;
-    margin:6rem auto;
+    margin:3.2rem auto;
     max-height: 90vh; 
     padding: 1rem;   
   }
@@ -21,14 +21,7 @@
     padding:.51rem;
     margin:1rem;   
   }
-  .dirk{   
-    background-color:#fa5273; 
-    display:flex; 
-    border : 2px solid black;
-    border-radius:10px;
-    margin:.2rem auto;
-    min-width: 99%;
-  }  
+   
 .feedbtn{
     border: none;
     margin:2rem;    
