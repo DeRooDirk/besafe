@@ -1,6 +1,6 @@
+import { Link } from "react-router-dom";
 const GoToSettingsButton = ({ title }) => {
-  const GoToSettingsButtonStyle = {
-    
+  const GoToSettingsButtonStyle = {    
     fontSize: "1.75rem",
     letterSpacing: " 2px",
     fontWeight: "400",
@@ -13,9 +13,12 @@ const GoToSettingsButton = ({ title }) => {
     margin: " 0 auto",
   };
   return (
-    <button className="btn btn-set" style={GoToSettingsButtonStyle}>
+    <>
+    <Link to="/Settings"> <button className="btn btn-set" style={GoToSettingsButtonStyle}>
       {title}
-    </button>
+    </button></Link>
+    
+    </>
   );
 };
 GoToSettingsButton.defaultProps = {

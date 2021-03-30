@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const GetMoreInfoButton = ({ title }) => {
   const GetMoreInfoButtonStyle = {
     border: "1px solid rgba(245, 245, 245,0.5)",
@@ -8,13 +9,16 @@ const GetMoreInfoButton = ({ title }) => {
     borderRadius: "10px",    
     outline: "none",
     display: "inline-block",
-    width: "30%",
+    
     margin: " 0 auto",
   };
   return (
-    <button className=" btn btn-set" style={GetMoreInfoButtonStyle}>
+    <>
+  <Link to="/Info"> <button className=" btn btn-set" style={GetMoreInfoButtonStyle}>
       {title}
-    </button>
+    </button></Link>
+    
+    </>
   );
 };
 GetMoreInfoButton.defaultProps = {

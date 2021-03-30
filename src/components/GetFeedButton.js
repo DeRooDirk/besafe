@@ -9,8 +9,8 @@ const GetFeedButton = ({ title }) => {
     border: "1px solid rgba(245, 245, 245,0.5)",
     outline: "none",
     display: "inline-block",
-    width: "30%",
-    margin: " 0 auto",
+    width: "90%",
+    margin: " 1rem auto",
   };
   return (
     <button className="btn btn-set" style={GetFeedStyle}>

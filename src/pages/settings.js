@@ -6,7 +6,7 @@ const Settings = ({ children }) => {
   return (
     <>
       <SettingsRight></SettingsRight>
-      <Link to="/Feed">TO FEED</Link>
+      
     </>
   );
 };

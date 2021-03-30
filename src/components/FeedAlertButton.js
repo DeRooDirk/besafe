@@ -5,15 +5,15 @@ const FeedAlertButton = ({ title }) => {
       letterSpacing: "2px",
       fontWeight: "400",
       padding: ".7rem 1.5rem",
-      borderRadius: "10px",
-      border: "3px solid #293a86",
+      borderRadius: "10px",      
       outline: "none",
       margin: ".5rem",
+      border :" 2px solid red",
     };
     return (
-      <button className="btn" style={FeedAlertButtonStyle}>
+      <div className="btn btn-set" style={FeedAlertButtonStyle}>
         {title}
-      </button>
+      </div>
     );
   };
   FeedAlertButton.defaultProps = {

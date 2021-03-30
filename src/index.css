@@ -33,6 +33,10 @@ li{
     flex-direction: column;      
     padding:3rem;  
 }
+#text{
+    box-shadow: inset 2.91px 2.91px 10px #D45E9D, inset -2.91px -2.91px 10px #FE70BD;
+    border: double 2px transparent;
+}
 /* -- Right Titel -- */
     h2{
         margin-top: 7rem;        
@@ -56,7 +60,7 @@ letter-spacing: 1px;
     display: flex;
     flex-direction: column;   
      justify-content: start;
-   /*  perspective:999px;*/
+     perspective:900px;
 }
 /* Social icon wrapper -- */
 .rightHeader {
@@ -96,6 +100,7 @@ letter-spacing: 1px;
     12px 12px 16px 0 rgba(57, 196, 229, 0.3) inset,
     -8px -8px 12px 0 rgba(186, 210, 238, .75) inset;
     box-shadow: 0 2px rgb(186, 210, 238);
+     
     
 }
 .btn:hover{
@@ -110,11 +115,11 @@ letter-spacing: 1px;
   .btn-set{
     background: linear-gradient(145deg, rgb(101, 119, 217,0.5), rgb(71, 83, 153,0.7));
     box-shadow: 2.91px 2.91px 5px rgb(78, 92, 168,0.5), -2.91px -2.91px 5px rgb(94, 110, 202,0.5);
-  /*  background-image: url(./police.png);
-    background-size: 20% ;
-    background-repeat: no-repeat;
-    background-position: center right; 
-    */
+  
+    
+  }
+  .fa{
+      color: #2F2E41;
   }
  
 
@@ -166,9 +171,7 @@ letter-spacing: 1px;
         padding:0;
 
     }
-    .btn{
-        background-color: coral;
-    }
+  
     
 }
 

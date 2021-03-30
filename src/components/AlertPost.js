@@ -1,12 +1,13 @@
 import React from "react";
 import style from "../module/Alert.module.css";
-import GoHomeButton from "../components/GoHomeButton";
 import FeedsafeButton from "../components/FeedsafeButton";
 import FeedAlertButton from "../components/FeedAlertButton";
+import {  Link } from 'react-router-dom';
 
 const AlertPost = () => {
   return (
     <>
+    <div className={style.superWrap }>
       <div className={style.bigWrap}>
         <div className={style.inputWrap}>
           <input type="text" maxlength="50" id="text" name="text" placeholder="Message max 50 char"/>
@@ -119,13 +120,17 @@ const AlertPost = () => {
         </div>
 
         <div className={style.buttonsSettinsWrap}>
-          <span> eIcon</span>
-          <span> icon</span>
-          <span> efef</span>
-          <span> efef</span>
+          <Link to="/Settings"> <span className ="btn btn-set"><i className="fa fa-wrench"></i> </span></Link>
+          <Link to="/Home">  <span className ="btn btn-set"> <i className="fa fa-home"></i></span></Link>
+          <Link to="/Feed"> <span className ="btn btn-set"> <i class="fa fa-comments"></i></span> </Link>
+          <Link to="/Home"> <span className ="btn btn-set"><i class="fa fa-phone"></i></span></Link>
+          
+          
         </div>
+       
       </div>
-      <GoHomeButton></GoHomeButton>
+      
+      </div>
     </>
   );
 };
