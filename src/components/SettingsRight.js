@@ -7,7 +7,7 @@ import GeolocationButton from "../components/GeolocationButton";
 const Settings = () => {
   return (
     <>
-      <div className={style.bigWrap}>
+      <div className={style.bigWrap }>
      
         <div className={style.wrap}>
           <FamilyButton></FamilyButton>
