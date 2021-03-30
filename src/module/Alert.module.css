@@ -90,11 +90,19 @@ span{
 
 .dirk{   
   background-color:#EE8197; 
+<<<<<<< HEAD
   display:flex; 
   border : 2px solid black;
   border-radius:5px;    
   min-width:80%;
   margin: 0.1rem auto;
+=======
+  display:flex;
+  outline:none;
+  border : 1px solid black;
+  border-radius:5px;
+  cursor: pointer;
+>>>>>>> 6bbb7c3f9b503ea345d80b8b95e58fd6e46d6fe3
 }
 .dirks{  
   border : 2px solid rgb(201, 33, 33);
@@ -102,8 +110,17 @@ span{
   margin:0.1em;  
   background-color:lightblue; 
   display:flex;
+<<<<<<< HEAD
   width: 80%;
   margin: 0.1rem auto;
+=======
+  outline:none;
+  border : 1px solid black;
+  border-radius:5px;
+  cursor: pointer;
+}
+.left{
+>>>>>>> 6bbb7c3f9b503ea345d80b8b95e58fd6e46d6fe3
   
  
 }
