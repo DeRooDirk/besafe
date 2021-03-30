@@ -8,6 +8,7 @@ const Settings = () => {
   return (
     <>
       <div className={style.bigWrap}>
+     
         <div className={style.wrap}>
           <FamilyButton></FamilyButton>
           <PoliceButton></PoliceButton>
@@ -18,7 +19,9 @@ const Settings = () => {
           <span> icon</span>
           <span> efef</span>
           <span> efef</span>
+          
         </div>
+        
       </div>
       <GetFeedButton></GetFeedButton>
     </>

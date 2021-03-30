@@ -1,21 +1,23 @@
 const GeolocationButton = ({ title }) => {
   const GeolocationStyle = {
-    backgroundColor: "#fa5273",
+    color:'#39C4E5',
     display: "flex",
-    border: "2px solid black",
+    border: "1px solid rgba(245, 245, 245,0.5)",
     borderRadius: "10px",
     margin: ".5rem auto",
     minWidth: "100%",
     padding: "2rem",
     outline: "none",
+    fontSize:'1.5rem',
+    
   };
   return (
-    <div className="btn" style={GeolocationStyle}>
+    <div className="btn btn-set" style={GeolocationStyle}>
       {title}
     </div>
   );
 };
 GeolocationButton.defaultProps = {
-  title: "Geolocation Button",
+  title: " Activate Geolocation ",
 };
 export default GeolocationButton;

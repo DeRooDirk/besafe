@@ -1,8 +1,9 @@
 const PoliceButton = ({ title }) => {
   const PoliceStyle = {
-    backgroundColor: "#fa5273",
+    fontSize:'1.5rem',
+    color:'#39C4E5',
     display: "flex",
-    border: "2px solid black",
+    border: "1px solid rgba(245, 245, 245,0.5)",
     borderRadius: "10px",
     margin: ".5rem auto",
     minWidth: "100%",
@@ -10,12 +11,12 @@ const PoliceButton = ({ title }) => {
     outline: "none",
   };
   return (
-    <div className="btn" style={PoliceStyle}>
+    <div className="btn btn-set" style={PoliceStyle}>
       {title}
     </div>
   );
 };
 PoliceButton.defaultProps = {
-  title: "Police Button",
+  title: "Set Police Number",
 };
 export default PoliceButton;
