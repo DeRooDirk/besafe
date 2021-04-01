@@ -17,7 +17,7 @@ const Feed =({children}) =>{
 
   useEffect(() => {
     setAppState({ loading: true });
-    const apiUrl = `https://jsonplaceholder.typicode.com/users/1/posts`;
+    const apiUrl = `http://127.0.0.1:8000/api/posts`;
     axios.get(apiUrl).then((repos) => {
       const allRepos = repos.data;
       setAppState({ loading: false, repos: allRepos });
@@ -36,7 +36,7 @@ const Feed =({children}) =>{
             <FeedAlertButton></FeedAlertButton>
           </div>
           <div className={style.wrap}>
-          <ListLoading isLoading={appState.loading} repos={appState.repos} /> 
+            <ListLoading isLoading={appState.loading} repos={appState.repos} /> 
           </div>
           <div className={style.buttonsSettinsWrap}>
             <Link to="/Settings"> <span className ="btn btn-set"><i className="fa fa-wrench"></i> </span></Link>

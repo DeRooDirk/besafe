@@ -13,7 +13,7 @@ const AlertPost = ({data}) => {
           </div>
           <div className={style.right}>
               <p> {data.title} </p>
-              <p> {data.body} </p>
+              <p> {data.content} </p>
               <p> Dirk </p>
           </div>            
       </div>               
