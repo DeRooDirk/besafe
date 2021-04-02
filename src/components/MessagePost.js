@@ -2,10 +2,10 @@ import React from "react";
 import style from "../module/Alert.module.css";
 import {  Link } from 'react-router-dom';
 
-const AlertPost = ({data}) => {   
+const MessagePost = ({data}) => {   
   return (
     <>
-      <div className={style.dirk} key={data}>
+      <div className={style.dirks} key={data}>
           <div className={style.left}>
               <div className={style.circle}></div>
           </div>
@@ -19,4 +19,4 @@ const AlertPost = ({data}) => {
   );
 };
 
-export default AlertPost;
+export default MessagePost;
