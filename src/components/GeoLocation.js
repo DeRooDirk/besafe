@@ -1,23 +1,9 @@
-import React from 'react'
-import Completed from './Completed'
-import Footer from './Footer'
-import Header from './Header'
+import React from "react";
+import Completed from "./Completed";
 //import Main from './Main'
 
 const GeoLocation = () => {
-    return (
-       <div className="Page1">
-           <div className="Left">
-               <Header />
-               <Footer />
-           </div>
+  return <Completed />;
+};
 
-           <div className="Right">
-             
-               <Completed />
-           </div>
-       </div>
-    )
-}
-
-export default GeoLocation
+export default GeoLocation;

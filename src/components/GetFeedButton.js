@@ -1,6 +1,5 @@
 const GetFeedButton = ({ title }) => {
-  const GetFeedStyle = {
-    
+  const GetFeedStyle = {      
     fontSize: "1.75rem",
     letterSpacing: " 2px",
     fontWeight: "400",

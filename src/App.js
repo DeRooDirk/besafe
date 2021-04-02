@@ -10,6 +10,7 @@ import RightHeader from './components/RightHeader';
 //import {  Link } from 'react-router-dom';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import  Settings from "./pages/settings";
+import  GeoLocation from "./components/GeoLocation";
 import Feed from "./pages/Feed";
 import Home from "./pages/Home";
 import Info from "./pages/Info";
@@ -25,6 +26,7 @@ const App = () => {
             <Route path="/Settings" exact component={() => <Settings />} />
             <Route path="/Feed" exact component={() => <Feed />} />
             <Route path="/Info" exact component={() => <Info />} />
+            <Route path="/GeoLocation" exact component={() => <GeoLocation />} />
             <Route path="/Home" exact component={() => <Home/>} />
           </Switch>
         </Router>
