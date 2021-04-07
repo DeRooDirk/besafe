@@ -1,9 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faFacebookSquare, faTwitterSquare,} from "@fortawesome/free-brands-svg-icons";
 import {  faHome,  faPhoneSquareAlt,  faComments,  faCog,} from "@fortawesome/free-solid-svg-icons";
-import {  BrowserRouter as Router,  Switch,  Route,  Link,  useRouteMatch,} from "react-router-dom";
+import {  BrowserRouter as Router,  Link,  } from "react-router-dom";
 
 const iconComponents = {
   facebook: [faFacebookSquare, "2x", "../pages/settings"],

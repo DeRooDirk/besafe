@@ -1,18 +1,21 @@
+
 const MainMiddel = ({ title }) => {
   const MainMiddelStyle = {
     color: "rgb(54, 62, 97)",
     letterSpacing: " 1px",
     fontSize: "1.6rem",
-    fontWeight: "400",
+    fontWeight: "lighter",
     width: "80%",
     margin: "2rem auto",
     wordSpacing: ".1rem",
     lineHeight: "2.5rem",
   };
   return (
+   
     <main style={MainMiddelStyle}>
       <h4>{title}</h4>
     </main>
+    
   );
 };
 MainMiddel.defaultProps = {

@@ -11,9 +11,9 @@ const FeedsafeButton = ({ title }) => {
     margin: ".5rem",
   };
   return (
-    <div className="btn btn-set" style={FeedsafeButtonStyle}>
+    <button className="btn btn-set" style={FeedsafeButtonStyle}>
       {title}
-    </div>
+    </button>
   );
 };
 FeedsafeButton.defaultProps = {

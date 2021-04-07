@@ -1,0 +1,36 @@
+.phone {
+    
+ width: 10%;
+    display: flex;
+  }
+  
+ 
+  
+  .PhoneInput {
+    
+    padding: 10px;
+    margin: 1rem;
+
+    
+    
+  }
+  
+  .PhoneInputCountryIcon {
+    max-height:  10px;
+    margin: 1rem;
+    
+  }
+  
+  .PhoneInputInput {
+    background-color: skyblue;
+    height: 20px;
+    margin-left: 10px;
+  }
+  .Wrap{
+    background-color: salmon;
+    padding: 1rem;
+    position: relative;
+    
+    
+    
+  }

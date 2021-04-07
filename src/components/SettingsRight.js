@@ -10,28 +10,32 @@ const Settings = () => {
       <div className={style.superWrap}>
         <div className={style.bigWrap}>
           <div className={style.wrap}>
+            <Link to="/FamilyTele">
+              <FamilyButton></FamilyButton>
+            </Link>
             <FamilyButton></FamilyButton>
             <PoliceButton></PoliceButton>
-            <Link to="/GeoLocation"><GeolocationButton> </GeolocationButton></Link>
-            
+            <Link to="/GeoLocation">
+              <GeolocationButton> </GeolocationButton>
+            </Link>
           </div>
           <div className={style.buttonsSettinsWrap}>
-            <Link to="/Settings">           
+            <Link to="/Settings">
               <span className="btn btn-set">
                 <i className="fa fa-wrench"></i>
               </span>
             </Link>
-            <Link to="/Home">              
-              <span className="btn btn-set">                
+            <Link to="/Home">
+              <span className="btn btn-set">
                 <i className="fa fa-home"></i>
               </span>
             </Link>
-            <Link to="/Feed">              
-              <span className="btn btn-set">                
+            <Link to="/Feed">
+              <span className="btn btn-set">
                 <i class="fa fa-comments"></i>
               </span>
             </Link>
-            <Link to="/Home">             
+            <Link to="/Home">
               <span className="btn btn-set">
                 <i class="fa fa-phone"></i>
               </span>
