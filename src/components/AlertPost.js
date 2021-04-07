@@ -5,7 +5,7 @@ import style from "../module/Alert.module.css";
 const AlertPost = ({data}) => {   
   return (
     <>
-      <div className={style.dirk} key={data}>
+      <div className={style.dirk}>
           <div className={style.left}>
               <div className={style.circle}></div>
           </div>

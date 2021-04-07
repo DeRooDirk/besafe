@@ -16,7 +16,7 @@ const ListPost = (props) => {
       {repos.map((repo) => {
         const NewPost = components[repo.type];
         return (           
-          <NewPost data={repo} />                     
+          <NewPost data={repo} key={repo.id}/>                     
         );
       })}
     </>
