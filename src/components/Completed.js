@@ -54,7 +54,7 @@ class Completed extends React.Component {
     }
 
     getAddress() {
-        fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${this.state.latitude},${this.state.longitude}&sensor=false&key=${"AIzaSyBdfaU7EEWWxNDsxoRAmH18acG7vi75Zk4"}`)
+        fetch(`https://maps.googleapis.com/maps/api/geocode/json?latlng=${this.state.latitude},${this.state.longitude}&sensor=false&key=$`)
             .then(response => response.json())
             .then(data => console.log(data))
             // .then(data => this.setState({
