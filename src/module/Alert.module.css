@@ -9,7 +9,13 @@
   border: double 5px transparent;
   box-shadow: inset 2.91px 2.91px 10px #D45E9D, inset -2.91px -2.91px 10px #FE70BD;  
   background-image: linear-gradient(110deg, rgba(221, 221, 221, 0.178), rgba(136, 136, 136, 0.212));
-  opacity: 0.9; 
+  opacity: 0.9;
+ 
+  
+   animation-name: turn-animation; /* any name what you give */
+   animation-duration: 4000ms; /* length of one animation cycle*/
+   animation-iteration-count: 1; /* repeats forever */
+   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);  /* ease-in-out */
  
 }
 .bigWrap{
@@ -22,7 +28,7 @@
   border: double 5px transparent;
   box-shadow: inset 2.91px 2.91px 10px #D45E9D, inset -2.91px -2.91px 10px #FE70BD;  
   background-image: linear-gradient(110deg, rgba(221, 221, 221, 0.103), rgba(136, 136, 136, 0.062));
-  opacity: 0.9;  
+  opacity: 0.9;
 }
 .wrap {
   margin: 10px;
@@ -36,7 +42,6 @@
   box-shadow: inset 2.91px 2.91px 15px #D45E9D, inset -2.91px -2.91px 10px #FE70BD;
   background-image: linear-gradient(110deg, rgba(221, 221, 221, 0.075), rgba(136, 136, 136, 0.116));
   opacity: 0.9;
-  
   padding: 1rem;
   border-radius: 15px;
   width: 80%;
@@ -56,7 +61,7 @@
 
 
 
-input[type=text] {
+input[type=text], textarea {
   border-radius: 15px;
   padding: 1rem;
   outline: none;
@@ -74,6 +79,7 @@ input[type=text]:focus {
   margin: 0 auto;
   height: 3rem;
 }
+
 
 .buttonsSettinsWrap {
  /* background-color: rgb(216, 205, 205);*/
@@ -100,41 +106,63 @@ span {
   margin: 1rem;
 }
 
-.dirk{   
-  background-color:#EE8197; 
+
+
+
+
+.dirk {
+  background-color: #EE8197;
+  border: 3px double rgb(201, 33, 33);
+  display: flex;
+  border-radius: 5px;
+  min-width: 80%;
+
+  margin: 0.1rem auto;
+
   display:flex;
   outline:none;
   border : 1px solid black;
   border-radius:5px;
   cursor: pointer;
+
 }
+
 .dirks{  
   border : 2px solid rgb(201, 33, 33);
   border-radius:5px;
   margin:0.1em;  
   background-color:lightblue; 
   display:flex;
+
+  width: 80%;
+  margin: 0.1rem auto;
+
   outline:none;
   border : 1px solid black;
   border-radius:5px;
   cursor: pointer;
 }
 
-.left{  
-  width:30%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
- background-color: yellow;
-  padding:.5em;
+
+
+.dirks {
+  border: 3px double black;
+  border-radius: 5px;
+  margin: 0.1em;
+  background-color: lightblue;
+  display: flex;
+  width: 80%;
+  margin: 0.1rem auto;
+
 }
-.right{   
-  flex-direction:column;
-  justify-content:space-around;
-  align-self: flex-start;  
-  background-size: 20% ;
-  background-repeat: no-repeat;
-  background-position: center right; 
+
+.left {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  padding: .5em;
 }
 
 
