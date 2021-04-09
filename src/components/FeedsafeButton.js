@@ -6,14 +6,14 @@ const FeedsafeButton = ({ title }) => {
     fontWeight: "400",
     padding: ".7rem 1.5rem",
     borderRadius: "10px",
-    border: "3px solid #293a86",
+    border:"2px solid #39C4E5",
     outline: "none",
     margin: ".5rem",
   };
   return (
-    <button className="btn" style={FeedsafeButtonStyle}>
+    <div className="btn btn-set" style={FeedsafeButtonStyle}>
       {title}
-    </button>
+    </div>
   );
 };
 FeedsafeButton.defaultProps = {

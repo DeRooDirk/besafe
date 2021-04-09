@@ -1,33 +1,21 @@
-import React from 'react';
-import AlertPost from '../components/AlertPost';
-<<<<<<< HEAD
-import style from "../module/Alert.module.css";
-=======
->>>>>>> 6bbb7c3f9b503ea345d80b8b95e58fd6e46d6fe3
+import React from "react";
+import AlertPost from "../components/AlertPost";
+import MessagePost from "../components/MessagePost";
+
 const ListPost = (props) => {
+  const components = {
+    Alert: AlertPost,
+    Message: MessagePost,
+  };
   const { repos } = props;
   if (!repos || repos.length === 0) return <p>No repos, sorry</p>;
   return (
-<<<<<<< HEAD
     <>
       {repos.map((repo) => {
-        return (
-          <div className={style.wrap}>
-            <AlertPost data={repo}/> 
-          </div>        
-        );
+        const NewPost = components[repo.type];
+        return <NewPost data={repo} key={repo.id} />;
       })}
     </>
-=======
-    <ul>
-      <h2 className='list-head'>Available Public Repositories</h2>
-      {repos.map((repo) => {
-        return (
-          <AlertPost data={repo}></AlertPost>         
-        );
-      })}
-    </ul>
->>>>>>> 6bbb7c3f9b503ea345d80b8b95e58fd6e46d6fe3
   );
 };
 export default ListPost;

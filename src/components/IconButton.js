@@ -31,7 +31,7 @@ export const showIconButtons = (buttonsName) => {
   return (
     <div>
       {buttonsName.map((button) => {
-        return <IconHeaderButton iconName={button} />;
+        return <IconHeaderButton iconName={button} key={button} />;
       })}
     </div>
   );

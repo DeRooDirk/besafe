@@ -9,7 +9,7 @@ const GoHomeButton = ({ title }) => {
     border: "1px solid rgba(245, 245, 245,0.5)",
     outline: "none",
     display: "inline-block",
-    width: "30%",
+    width: "90%",
     margin: " 1rem auto",
   };
   return (
