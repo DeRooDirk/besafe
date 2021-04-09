@@ -3,7 +3,7 @@ import {  Link } from 'react-router-dom';
 import axios from 'axios';
 import ListPost from '../components/ListPost';
 import withListLoading from '../components/withListLoading';
-import GoHomeButton from "../components/GoHomeButton";
+
 import style from "../module/Alert.module.css";
 import FormPost from "../components/FormPost";
 
