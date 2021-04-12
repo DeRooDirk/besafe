@@ -1,7 +1,7 @@
 const PoliceButton = ({ title }) => {
   const PoliceStyle = {
     fontSize:'1.5rem',
-    color:'#2F2E41',
+    color:' #EE8197',
     display: "flex",
     border: "1px solid rgba(245, 245, 245,0.5)",
     borderRadius: "10px",

@@ -41,7 +41,7 @@ class Completed extends React.Component {
         this.state.latitude
       },${
         this.state.longitude
-      }&sensor=false&key=${"AIzaSyBdfaU7EEWWxNDsxoRAmH18acG7vi75Zk4"}`
+      }&sensor=false&key=${""}`
     )
       .then((response) => response.json())
       .then((data) => console.log(data))
@@ -73,10 +73,12 @@ class Completed extends React.Component {
   render() {
     return (
       <>
-        <div className={style.GeosuperWrap}>
+       
           <div className={style.GeobigWrap}>
             <h2 className={style.geoLoc}>Your Location:</h2>
-            <button className="btn btn-set gButton" onClick={this.getLocation}>Get Location</button>
+            <div>
+            <button className="btn btn-set " onClick={this.getLocation}>Get Location</button>
+            </div>
             <h4 className={style.geoLoc}>Coordinates:</h4>
             <p className={style.geoLoc}>Latitude: {this.state.latitude}</p>
             <p className={style.geoLoc}>Longitude: {this.state.longitude}</p>
@@ -110,12 +112,12 @@ class Completed extends React.Component {
             </Link>
             <Link to="/Home">             
               <span className="btn btn-set">
-                <i class="fa fa-phone"></i>
+                <i className="fa fa-phone"></i>
               </span>
             </Link>
           </div>
         </div>
-          </div>
+         
         
       </>
     );

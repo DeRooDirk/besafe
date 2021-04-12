@@ -97,7 +97,7 @@ const Feed =({children}) =>{
   
   return(
     <>
-      <div className={style.superWrap }>
+      
         <div className={style.bigWrap}>
           <div className={style.inputWrap}>
             <input type="text" maxlength="50" id="text" name="text" placeholder="Message max 50 char"/>
@@ -123,7 +123,7 @@ const Feed =({children}) =>{
             <Link to="/Home"> <span className ="btn btn-set"><i class="fa fa-phone"></i></span></Link>
           </div>
         </div>      
-      </div>
+      
     </>
   )
 }

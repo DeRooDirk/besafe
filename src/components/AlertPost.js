@@ -1,6 +1,5 @@
 import React from "react";
 import style from "../module/Alert.module.css";
-//import {  Link } from 'react-router-dom';
 
 const AlertPost = ({data}) => {   
   return (

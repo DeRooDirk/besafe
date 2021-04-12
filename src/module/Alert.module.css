@@ -1,27 +1,9 @@
-.superWrap {
-  display: flex;
-  flex-direction: column;
-  min-width: 40%;  
-  border-radius: 15px;
-  margin: 0rem auto;
-  max-height: 90vh;
-  padding: 1rem;
-  border: double 5px transparent;
-  box-shadow: inset 2.91px 2.91px 10px #D45E9D, inset -2.91px -2.91px 10px #FE70BD;  
-  background-image: linear-gradient(110deg, rgba(221, 221, 221, 0.178), rgba(136, 136, 136, 0.212));
-  opacity: 0.9;
- 
-  
-   animation-name: turn-animation; /* any name what you give */
-   animation-duration: 4000ms; /* length of one animation cycle*/
-   animation-iteration-count: 1; /* repeats forever */
-   transition-timing-function: cubic-bezier(0.42, 0, 0.58, 1);  /* ease-in-out */
- 
-}
+
 .bigWrap{
   display: flex;
   flex-direction: column;
-  min-width: 40%;  
+  min-width: 40%; 
+  padding:1rem; 
   border-radius: 15px;
   margin: 3.2rem auto;
   max-height: 90vh;  
@@ -126,25 +108,6 @@ span {
   cursor: pointer;
 
 }
-
-.dirks{  
-  border : 2px solid rgb(201, 33, 33);
-  border-radius:5px;
-  margin:0.1em;  
-  background-color:lightblue; 
-  display:flex;
-
-  width: 80%;
-  margin: 0.1rem auto;
-
-  outline:none;
-  border : 1px solid black;
-  border-radius:5px;
-  cursor: pointer;
-}
-
-
-
 .dirks {
   border: 3px double black;
   border-radius: 5px;
@@ -153,6 +116,10 @@ span {
   display: flex;
   width: 80%;
   margin: 0.1rem auto;
+  outline:none;
+  border : 1px solid black;
+  border-radius:5px;
+  cursor: pointer;
 
 }
 
@@ -161,8 +128,11 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: yellow;
+  background-color: rgb(39, 39, 37);
   padding: .5em;
+}
+.Right{
+  background-color: brown;
 }
 
 
@@ -211,11 +181,19 @@ p {
   }
 
   .left {
-    padding: 1rem;
+    
+    margin: 0 auto;
+    
+  }
+  .right{
     margin: 0 auto;
   }
 
   .buttonsSettinsWrap {
     width: 70%;
+  }
+  .bigWrap{
+    margin: 0 auto;
+    background-color: black;
   }
 }

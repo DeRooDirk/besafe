@@ -10,15 +10,18 @@ const FamilyTele = () => {
   const [value, setValue] = useState();
   return (
       <>
+<div className='bigWrap'>
     <div className='Wrap'>
       <PhoneInput 
         className="phone"
         placeholder="Enter phone number"
+        
         value={value}
         onChange={setValue}
       />
 
-      <p>The telephone Number you entered : {value}</p>
+      <p className='Enter'>The telephone Number you entered : {value}</p>
+      </div>
       </div>
     </>
   );

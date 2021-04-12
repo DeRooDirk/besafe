@@ -1,36 +1,67 @@
 .phone {
-    
- width: 10%;
-    display: flex;
+    display: inline-block;
+ margin: 2rem;
+   
   }
   
  
   
-  .PhoneInput {
-    
-    padding: 10px;
-    margin: 1rem;
-
-    
+  .PhoneInputCountrySelect {
+ 
+  height: 2rem;
+margin: 1rem;
+    display:inline-block;
     
   }
   
-  .PhoneInputCountryIcon {
-    max-height:  10px;
+  .PhoneInputCountryIconImg {
+    max-height: 2rem;
     margin: 1rem;
+    display:inline-block;
     
   }
   
   .PhoneInputInput {
-    background-color: skyblue;
-    height: 20px;
-    margin-left: 10px;
+    padding: 1rem;
+    height: 2rem;
+    text-align: center;
+    display:inline-block;
   }
   .Wrap{
-    background-color: salmon;
+    display: inline-block;
     padding: 1rem;
-    position: relative;
-    
-    
-    
+    position: relative;    
   }
+  .bigWrap{
+    display: flex;
+    flex-direction: column;
+    
+    min-width: 40%; 
+    padding:1rem; 
+    border-radius: 15px;
+    margin: 10rem auto;
+    max-height: 90vh;  
+    border: double 5px transparent;
+    box-shadow: inset 2.91px 2.91px 10px #D45E9D, inset -2.91px -2.91px 10px #FE70BD;  
+    background-image: linear-gradient(110deg, rgba(221, 221, 221, 0.103), rgba(136, 136, 136, 0.062));
+    opacity: 0.9;
+  }
+  .Enter{
+    padding: 1rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+
+  @media only screen and (max-width: 550px) {
+
+    .bigWrap{
+      margin: 0 auto;
+      background-color: rgba(0, 0, 0, 0.849);
+      display: flex;
+      max-width: 300px;
+      align-items: center;
+      
+    }
+  .PhoneInputCountryIconImg{
+    color: whitesmoke;
+  }}

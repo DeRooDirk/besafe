@@ -7,13 +7,13 @@ import { Link } from "react-router-dom";
 const Settings = () => {
   return (
     <>
-      <div className={style.superWrap}>
+      
         <div className={style.bigWrap}>
           <div className={style.wrap}>
             <Link to="/FamilyTele">
               <FamilyButton></FamilyButton>
             </Link>
-            <FamilyButton></FamilyButton>
+            
             <PoliceButton></PoliceButton>
             <Link to="/GeoLocation">
               <GeolocationButton> </GeolocationButton>
@@ -42,7 +42,7 @@ const Settings = () => {
             </Link>
           </div>
         </div>
-      </div>
+     
     </>
   );
 };

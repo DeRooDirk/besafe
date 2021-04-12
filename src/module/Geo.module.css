@@ -1,24 +1,11 @@
-.GeosuperWrap {
-    display: flex;
-    flex-direction: column;      
-    border-radius: 15px;
-    margin: 0rem auto;    
-    max-width: 60%;
-    border: double 5px transparent;
-    box-shadow: inset 2.91px 2.91px 10px #D45E9D, inset -2.91px -2.91px 10px #FE70BD;
-   
-    background-image: linear-gradient(110deg, rgba(221, 221, 221, 0.178), rgba(136, 136, 136, 0.212));
-    opacity: 0.9;   
-    align-content: center;
-   
-  }
+
   .GeobigWrap{
     display: flex;
     flex-direction: column;
-    width: 50%;  
+    width: 80%;  
     border-radius: 15px;
     margin: 3.2rem auto;
-    max-height: 90vh;
+    
     padding: 1rem;    
     border: double 5px transparent;
     box-shadow: inset 2.91px 2.91px 10px #D45E9D, inset -2.91px -2.91px 10px #FE70BD;    
@@ -28,6 +15,20 @@
   .geoLoc{    
     margin: 1rem auto;
     
+    
   }
+  @media only screen and (max-width: 550px) {
+
+    .GeobigWrap{
+      margin: 0 auto;
+      background-color: black;
+      width: 350px;
+    }
+   h2{
+    color:  #EE8197;
+    font-size: 1rem;
+    
+  }
+}
 
   

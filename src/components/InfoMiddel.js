@@ -14,7 +14,7 @@ const InfoMiddel = () => {
         <li>Geo-Location </li>
         <li>Friends Alert</li>
         <li>Police Alert</li>
-        <li>Noise Alert</li>
+        
       </ul>
     </main>
   );
